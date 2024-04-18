@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <button class="reset" onclick="allBooks()">Reset</button>
+        <select name="selection" id="selection" onchange="filterBook(value)">
+            <option value="select">Genre</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Non-Fiction">Non-Fiction</option>
+            <option value="History">History</option>
+            <option value="Science">Science</option>
+        </select>
+        <div class="result">Results:<span class="noRes"></span></div>
+    </nav>
+    
+    <div class="container">
+        
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
